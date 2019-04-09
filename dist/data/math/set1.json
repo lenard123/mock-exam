@@ -107,5 +107,203 @@
             "c": "5x+5",
             "d": "x<sup>5</sup>"
         }
+    },
+
+    {
+        "question": "Sally wants a jar that can store all her five-centavo coins. There are four possible jar sizes, as described below. Considering the presence of small gaps, which of these jars would fit the most amount of coins stacked efficiently? Assume that a five centavo coin has a radius of 8mm and a thickness of 2mm.",
+        "answer": "c",
+        "choices": {
+            "a": "2 cm radius; 4cm height",
+            "b": "4 cm radius; 1 cm height",
+            "c": "8mm radius; 25cm height",
+            "d": "All of these are of same volume and should contain the same maximum number of coins."
+        }
+    },
+
+    {
+        "question": "Express c in terms of a and b in the equation  <load>001</load>",
+        "answer": "c",
+        "choices": {
+            "a": "<load>002</load>",
+            "b": "<load>003</load>",
+            "c": "<i> - a - b</i>",
+            "d": "<load>004</load>"
+        }
+    },
+
+    {
+        "question": "The numbers 54, 89, 13, 45, 20, and x have a mean of 42. What is the value of x?",
+        "answer": "b",
+        "choices": {
+            "a": "25",
+            "b": "31",
+            "c": "48",
+            "d": "50"
+        }
+    },
+
+    {
+        "question": "The sector below has radius 15 cm. Determine its perimeter.<br><load>005</load>",
+        "answer": "c",
+        "choices": {
+            "a": "10 + 20π",
+            "b": "15 + 20π",
+            "c": "30 + 10π",
+            "d": "30 + 15π"
+        }
+    },
+
+    {
+        "question": "A boat travels 36 km upstream in the same time it takes to travel 24 km downstream. If the current’s speed is 6 kph, determine the boat’s speed in still water.",
+        "answer": "b",
+        "choices": {
+            "a": "20",
+            "b": "30",
+            "c": "40",
+            "d": "50"
+        }
+    },
+
+    {
+        "question": "The standard deviation and range of a set of 80 test scores doubled after they were adjusted. Which of the following adjustments is most likely to have caused this?",
+        "answer": "c",
+        "choices": {
+            "a": "2 was added to every test score in the set.",
+            "b": "4 was added to every test score in the set.",
+            "c": "Every test score in the set was multiplied by 2.",
+            "d": "Every test score in the set was multiplied by 4."
+        }
+    },
+
+    {
+        "question": "Find all the possible value of x in the equation <i>(x-1)<sup>2</sup>+3(x-1)+2=0",
+        "answer": "b",
+        "choices": {
+            "a": "-1, -2",
+            "b": "0, -1",
+            "c": "1, 0",
+            "d": "0"
+        }
+    },
+
+    {
+        "question": "A set of seven numbers is given as: 5, 7, 8, 8, 8, 9, and 11. What is the standard deviation of the set?",
+        "answer": "d",
+        "choices": {
+            "a": "<sqr>2</sqr>",
+            "b": "<load>006</load>",
+            "c": "<load>007</load>",
+            "d": "<load>008</load>"
+        }
+    },
+
+    {
+        "question": "Determine <load>009</load>",
+        "answer": "b",
+        "choices": {
+            "a": "0",
+            "b": "4",
+            "c": "-2",
+            "d": "The limit doesnt exist"
+        }
+    },
+
+    {
+        "question": "The sum of the roots of the quadratic equation <i>2x<sup>2</sup> + Ax + B = 0</i> is - 3, while the product of the roots of this equation is 2.5. Determine the type of roots this quadratic equation has.",
+        "answer": "c",
+        "choices": {
+            "a": "1 real root",
+            "b": "2 real root",
+            "c": "2 complex roots",
+            "d": "1 complex and 1 real root"
+        }
+    },
+
+    {
+        "question": "The sum of the first four terms in an arithmetic sequence is 12, while the sum of the first twenty terms is 700. Find the common difference.",
+        "answer": "b",
+        "choices": {
+            "a": "2",
+            "b": "4",
+            "c": "6",
+            "d": "8"
+        }
+    },
+
+    {
+        "question": "Which of the following is characteristic of ALL functions?",
+        "answer": "a",
+        "choices": {
+            "a": "For every x value, the function can only have one y value.",
+            "b": "For every y value, the function can only have one x value.",
+            "c": "The graph is symmetrical about the y-axis.",
+            "d": "The graph is symmetrical about the line y = x."
+        }
+    },
+
+    {
+        "question": "Given <i>2<sup>4x</sup> = 6 - 5(4<sup>x</sup>)</i>, find x",
+        "answer": "b",
+        "choices": {
+            "a": "x = 0, x = 1",
+            "b": "x = 0",
+            "c": "x = 0, x = <i>log<sub>4</sub>6</i>",
+            "d": "x = <i>log<sub>4</sub>6</i>"
+        }
+    },
+
+    {
+        "question": "Simplify <load>010</load>",
+        "answer": "d",
+        "choices": {
+            "a": "120",
+            "b": "1600",
+            "c": "1680",
+            "d": "336"
+        }
+    },
+
+    {
+        "question": "If a and b are roots of the equation <i>x<sup>2</sup> - 7x + 5 = 0</i>, solve for <i>a<sup>2</sup> - b<sub>2</sub></i>.",
+        "answer": "a",
+        "choices": {
+            "a": "7<sqr>29</sqr>",
+            "b": "29<sqr>7</sqr>",
+            "c": "16<sqr>3</sqr>",
+            "d": "No solution"
+        }
+    },
+
+    {
+        "question": "The population of a single-celled organism doubles every hour. A scientist cultures a starting population of bacterium is 20 bacterial cells. After 5 hours, how many bacterial cells will he have in the culture?",
+        "answer": "c",
+        "choices": {
+            "a": "320",
+            "b": "500",
+            "c": "640",
+            "d": "3,200,000"
+        }
+    },
+
+    {
+        "question": "Solve the following equation log(3x - 1) - log7 = 2",
+        "answer": "c",
+        "choices": {
+            "a": "-702/3",
+            "b": "-701/3",
+            "c": "701/3",
+            "d": "702/3"
+        }
+    },
+
+    {
+        "question": "Find the area of a sector whose radius is 14 cm and central angle is 45°.",
+        "answer": "b",
+        "choices": {
+            "a": "32π cm<sup>2</sup>",
+            "b": "49π cm<sup>2</sup>",
+            "c": "24.5π cm<sup>2</sup>",
+            "d": "196π cm<sup>2</sup>"
+        }
     }
 ]

@@ -37,7 +37,8 @@ export default {
         number: 1,
         wrong: [],
         correct: [],
-        answer: null
+        answer: null,
+        active_set: null
     }),
 
     created: function () {
@@ -60,8 +61,10 @@ export default {
             this.state = "loading"
             var data;
             for (var i in this.sets) {
-                if (this.sets[i].name==this.set)
+                if (this.sets[i].name==this.set){
                     data = this.sets[i];
+                    this.active_set = data;
+                }
             }
             if (data == undefined) {
                 alert("Set not found");
@@ -105,8 +108,20 @@ export default {
 
         parse: function () {
             var sqr = $('sqr');
-            var val = sqr.html();
-            sqr.html("&#8730;<span style='text-decoration:overline'>"+val+"</span>")
+            var val;
+            for (var i = 0; i < sqr.length; i++) {
+                val = sqr[i].innerHTML;
+                sqr[i].innerHTML = "&#8730;<span style='text-decoration:overline'>"+val+"</span>";
+            }
+
+            var load = $('load');
+            var path;
+            for (var i = 0; i < load.length; i++) {
+                val = load[i].innerHTML;
+                path = this.active_set.files+"image"+val+".png";
+                load[i].innerHTML = (`<img src="${path}"/>`);
+            }
+
         }
 
     },

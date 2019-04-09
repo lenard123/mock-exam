@@ -1,6 +1,7 @@
 [
     {
         "name": "Set 1",
-        "data": "./data/math/set1.json"
+        "data": "./data/math/set1.json",
+        "files": "./data/math/Set 1/"
     }
 ]
