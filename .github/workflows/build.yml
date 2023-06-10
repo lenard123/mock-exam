@@ -1,0 +1,37 @@
+
+name: "Build Source code"
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Clone Repository"
+        uses: actions/checkout@v2
+        
+      - name: "Install NodeJS"
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      
+      - name: "Setup git"
+        run: |
+          git config user.name lenard123
+          git config user.email lenard.mangayayam@gmail.com
+          git checkout -b build
+          
+      - name: "Install Node Dependencies"
+        run: "npm ci"
+        
+      - name: "Build Front end files"
+        run: npm run prod
+        
+      - name: "Commit build files"
+        run: |
+          cp -r dist public
+          git add public
+          git commit -m "Build Source code"
+          git push -u origin build --force
